@@ -16,10 +16,10 @@ const ProfileSidebar = ({ username }) =>{
 export default function Home() {
   const githubUser = 'pedro-candido';
   const pessoasFavoritas = [
-    'juunegreiros', 
-    'omariosouto', 
-    'peas', 
-    'rafaballerini', 
+    'carlos-HFC', 
+    'ArcherDiego', 
+    'eduardoAmroginski', 
+    'taciossbr', 
     'marcobrunodev',
     'felipefialho'
   ]
