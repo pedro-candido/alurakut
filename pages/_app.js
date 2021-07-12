@@ -1,16 +1,36 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { AlurakutStyles } from '../src/lib/AlurakutCommons'
 
 const GlobalStyle = createGlobalStyle`
-  body {
+
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+
+  body {
+    background-color: #d9e6f6;
+  }
+
+  #__next {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+
+  ${ AlurakutStyles }
 `
 
 const theme = {
   colors: {
-    primary: '#0070f3',
+    primary: '#d9e6f6',
   },
 }
 
