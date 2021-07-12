@@ -20,7 +20,7 @@ export default function Home() {
     'ArcherDiego', 
     'eduardoAmroginski', 
     'taciossbr', 
-    'marcobrunodev',
+    'NandoPla',
     'felipefialho'
   ]
 
